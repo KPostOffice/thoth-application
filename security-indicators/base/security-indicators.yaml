@@ -48,6 +48,7 @@ objects:
       onExit: exit-handler
       podGC:
         strategy: OnPodCompletion
+      resubmitPendingPods: true
       serviceAccountName: argo
       templates:
         - archiveLocation:

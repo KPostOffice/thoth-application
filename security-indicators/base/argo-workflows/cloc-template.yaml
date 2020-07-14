@@ -95,3 +95,4 @@ spec:
           - name: THOTH_SI_CLOC_PACKAGE_INDEX
           - name: THOTH_SI_CLOC_DIR
       name: cloc-from-dir
+      resubmitPendingPods: true

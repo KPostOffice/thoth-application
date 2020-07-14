@@ -97,3 +97,4 @@ spec:
           - name: THOTH_SI_BANDIT_PACKAGE_INDEX
           - name: THOTH_SI_BANDIT_DIR
       name: bandit-from-dir
+      resubmitPendingPods: true
